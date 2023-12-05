@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.20)
+project(cnn_assignment)
+include_directories(../inc)
+add_executable(run_cnn ../src/main.cpp ../src/conv_layer.cpp ../src/pooling_layer.cpp)
+target_compile_options(run_cnn PRIVATE -Wall -Werror)
+set_target_properties(run_cnn PROPERTIES RUNTIME_OUTPUT_DIRECTORY ../)
