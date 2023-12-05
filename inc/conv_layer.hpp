@@ -36,9 +36,9 @@ class ConvLayer {
 
     void Print(std::ostream& ostream = std::cout, const int num_decimals = 1);
 
-    void PerformConvolution();
+    void PerformConvolution(); 
 
-    void ReLUActivation();
+    void ReLUActivation(); 
 };
 
 } /* namespace machine_learning */
